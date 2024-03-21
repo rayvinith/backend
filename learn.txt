@@ -1,0 +1,63 @@
+1//how to create a package.json 
+
+npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (hit-backend) backend with hitesh
+Sorry, name can only contain URL-friendly characters.
+package name: (hit-backend) learning_backend_with_hitesh
+version: (1.0.0)
+description: lerning backend from chai aur code
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Aniket Ray
+license: (ISC)
+About to write to C:\Users\Vinith\Desktop\hit-backend\package.json:
+
+{
+  "name": "learning_backend_with_hitesh",
+  "version": "1.0.0",
+  "description": "lerning backend from chai aur code ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aniket Ray",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+PS C:\Users\Vinith\Desktop\hit-backend>
+
+2//create the entry point that is mentioned above that is index.js
+
+how to run this index.js
+first do ls
+which means last write point 
+
+and then node and name of file that you want to run 
+
+another way 
+
+ "scripts": {
+    "start": "node index.js"
+  },
+
+  now do npm start and it will run 
+
+  3//learning and setup of express 
+
+   npm install express --save
+
+   
